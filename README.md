@@ -47,7 +47,7 @@ Every edge in the graph carries the `accession_number`, `document_url`, and `sou
 flowchart TD
 
 A[SEC EDGAR API] --> B[Claude Extraction<br/>Triples + Risk Types]
-B --> C[all_triples.json]
+B --> C[Extracting Relationship Triplets]
 
 C --> D[Neo4j Knowledge Graph]
 
