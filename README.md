@@ -55,8 +55,7 @@ D --> E[GraphRAG Q&A Engine]
 E --> F[Claude Cypher Writer]
 F --> D
 
-E --> G[Multi-hop Reasoning Loop]
-G --> H[Final Answer + Provenance]
+E --> G[Final Answer + Provenance]
 ```
 
 ## Query Flow
